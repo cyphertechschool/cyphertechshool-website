@@ -2,7 +2,8 @@
 tailwind.config = {
     theme: {
         extend: {
-            colors: {
+            backgroundImage: {
+                'hero-pattern': "url('/images/bg.svg')",
 
             }
         }

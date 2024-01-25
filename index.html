@@ -11,54 +11,64 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./js/twailwind-config.js"></script>
     <title>Cypher Tech School</title>
   </head>
-  <body>
-    <header class="bg-gray-900 px-5">
-      <div class="container m-auto flex justify-between items-center py-4">
-        <a href="#">
-          <img src="./images/logo_white.png" alt="" class="h-[50px]" />
-        </a>
-        <div class="flex gap-5 items-center">
-          <nav class="md:flex items-center gap-5 hidden">
+
+  <body class="h-[3000vh]">
+    <section
+      class="bg-gray-900 bg-hero-pattern bg-no-repeat bg-right-bottom bg-cover"
+    >
+      <header class="bg-gray-900 px-5 sticky top-0">
+        <div class="container m-auto flex justify-between items-center py-4">
+          <a href="#">
+            <img src="./images/logo_white.png" alt="" class="h-[50px]" />
+          </a>
+          <div class="flex gap-5 items-center">
+            <nav class="md:flex items-center gap-5 hidden">
+              <a
+                href="#"
+                class="text-white capitalize tracking-wider font-medium hover:underline"
+                >Subscribe</a
+              >
+              <a
+                href="#"
+                class="text-white capitalize tracking-wider font-medium hover:underline"
+                >Course</a
+              >
+              <a
+                href="#"
+                class="text-white capitalize tracking-wider font-medium hover:underline"
+                >Rodemap</a
+              >
+              <a
+                href="#"
+                class="text-white capitalize tracking-wider font-medium hover:underline"
+                >Contact</a
+              >
+            </nav>
             <a
               href="#"
-              class="text-white capitalize tracking-wider font-medium hover:underline"
-              >Subscribe</a
+              class="inline-block px-5 py-2 font-bold text-center outline-none rounded-full bg-amber-500 text-nowrap capitalize"
+              >login</a
             >
-            <a
-              href="#"
-              class="text-white capitalize tracking-wider font-medium hover:underline"
-              >Course</a
-            >
-            <a
-              href="#"
-              class="text-white capitalize tracking-wider font-medium hover:underline"
-              >Rodemap</a
-            >
-            <a
-              href="#"
-              class="text-white capitalize tracking-wider font-medium hover:underline"
-              >Contact</a
-            >
-          </nav>
-          <a
-            href="#"
-            class="inline-block px-5 py-2 font-bold text-center outline-none rounded-full bg-amber-500 text-nowrap capitalize"
-            >login</a
-          >
+          </div>
         </div>
-      </div>
-    </header>
-    <section class="bg-gray-900 py-10">
+      </header>
       <div class="container m-auto px-3 md:p-0">
         <div
-          class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-5 items-center"
+          class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-5 items-center pb-12"
         >
-          <div class="text-white px-4">
-            <h4 class="uppercase font-bold mb-5">ON-DEMAND COURSE</h4>
+          <div class="text-white py-8 px-4">
+            <h4 class="uppercase font-bold mb-5 tracking-widest">
+              ON-DEMAND COURSE
+            </h4>
             <h1 class="text-3xl md:text-5xl mb-10 font-bold tracking-wider">
               Complete JavaScript Masterclass for Web Development
             </h1>
@@ -80,17 +90,201 @@
               </a>
             </div>
           </div>
-          <div class="w-full px-4">
+          <div class="w-full h-full py-8 px-4">
             <img
               src="./images/Software-Developer.png"
               alt=""
-              class="w-full h-full object-cover"
+              class="w-full h-full object-contain"
             />
           </div>
         </div>
       </div>
     </section>
 
+    <section class="container m-auto">
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-5 items-center justify-items-center my-10 md:my-20"
+      >
+        <div class="p-2">
+          <i class="devicon-html5-plain text-5xl text-gray-300"></i>
+        </div>
+        <div class="p-2">
+          <i class="devicon-css3-plain text-5xl text-gray-300"></i>
+        </div>
+        <div class="p-2">
+          <i class="devicon-javascript-plain text-5xl text-gray-300"></i>
+        </div>
+        <div class="p-2">
+          <i class="devicon-react-original text-5xl text-gray-300"></i>
+        </div>
+        <div class="p-2">
+          <i class="devicon-nodejs-plain text-5xl text-gray-300"></i>
+        </div>
+        <div class="p-2">
+          <i class="devicon-express-original text-5xl text-gray-300"></i>
+        </div>
+        <div class="p-2">
+          <i class="devicon-git-plain text-5xl text-gray-300"></i>
+        </div>
+        <div class="p-2">
+          <i class="devicon-vscode-plain text-5xl text-gray-300"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="container m-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 w-full h-full">
+        <div class="p-5">
+          <img
+            src="./images/Coding-workshop.svg"
+            alt=""
+            class="w-full h-full object-contain p-5"
+          />
+        </div>
+        <div class="p-5 flex gap-5 flex-col justify-center h-full">
+          <h4 class="uppercase font-bold tracking-widest">FEATURED COURSE</h4>
+          <h2 class="text-3xl md:text-5xl font-bold text-gray-900">
+            Getting Started With JavaScript for Beginner
+          </h2>
+          <h5 class="font-bold text-gray-700">
+            JavaScript is versatile and beginner-friendly. With more experience,
+            you'll be able to create games, animated 2D and 3D graphics,
+            comprehensive database-driven apps, and much more!
+          </h5>
+          <div>
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <li class="font-bold text-gray-700 before:content-['⁕']">
+                Fundamental
+              </li>
+              <li class="font-bold text-gray-700 before:content-['⁕']">
+                Conditional branching
+              </li>
+              <li class="font-bold text-gray-700 before:content-['⁕']">
+                Input and output
+              </li>
+              <li class="font-bold text-gray-700 before:content-['⁕']">
+                8+ more lessons
+              </li>
+            </ul>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="px-4 py-2 md:px-7 md:py-3 bg-slate-700 text-white hover:bg-amber-500 font-bold block md:inline-block text-center outline-none rounded-full text-nowrap capitalize"
+              >Start Course</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-100">
+      <div class="container m-auto py-10 md:py-20 px-5">
+        <div class="text-center flex flex-col gap-3 mb-10">
+          <h3 class="text-xl text-amber-500">TOP-SELLING COURSES</h3>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
+            Level Up Your Coding Skills
+          </h2>
+          <p class="max-w-full md:max-w-[600px] m-auto font-bold text-gray-700">
+            Whether you're looking to switch to a career in tech or to advance
+            in your current role, my courses give you the knowledge and
+            experience you need to succeed.
+          </p>
+        </div>
+        <div
+          class="max-w-[1000px] m-auto grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10"
+        >
+          <!-- card -->
+          <div
+            class="bg-white rounded-lg overflow-hidden shadow-sm border border-1 border-gray-300 hover:border-gray-500"
+          >
+            <div class="relative">
+              <a href="#" class="h-50 md:h-40 w-full block">
+                <img
+                  src="./images/all_subcriptions.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </a>
+            </div>
+
+            <div class="p-7 bg-gray-100">
+              <div class="flex justify-between mb-5 gap-3">
+                <a href="#" class="font-bold text-lg"
+                  >All-Access Subscription</a
+                >
+                <span
+                  class="flex items-center jutify-center h-7 px-3 py-1 bg-gray-200 text-sm rounded-full font-bold text-purple-500 select-none"
+                  >330h</span
+                >
+              </div>
+              <div class="mb-5 text-gray-700 font-bold">
+                Become the best coder you can be with unlimited access to all
+                the existing and future courses
+              </div>
+              <div>
+                <span class="text-lg font-bold text-gray-900 select-none mr-5"
+                  >$29/m</span
+                ><span
+                  class="text-sm text-gray-400 select-none line-through mr-5"
+                  >$149/m</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg overflow-hidden shadow-sm border border-1 border-gray-300 hover:border-gray-500"
+          >
+            <div class="relative">
+              <a href="#" class="h-50 md:h-40 w-full block">
+                <img
+                  src="./images/js.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </a>
+              <div
+                class="absolute top-2 left-2 p-3 bg-slate-700 rounded-full text-white h-4 flex items-center justify-center"
+              >
+                <span class="uppercase text-xs">new</span>
+              </div>
+            </div>
+
+            <div class="p-7 bg-gray-100">
+              <div class="flex justify-between mb-5 gap-3">
+                <a href="#" class="font-bold text-lg"
+                  >The Ultimate JavaScript (2024)</a
+                >
+                <span
+                  class="flex items-center jutify-center h-7 px-3 py-1 bg-gray-200 text-sm rounded-full font-bold text-purple-500 select-none"
+                  >50h</span
+                >
+              </div>
+              <div class="mb-5 text-gray-700 font-bold">
+                Master all the JavaScript skills you need to land a full-stack
+                developer job
+              </div>
+              <div>
+                <span class="text-lg font-bold text-gray-900 select-none mr-5"
+                  >$69/m</span
+                ><span
+                  class="text-sm text-gray-400 select-none line-through mr-5"
+                  >$449/m</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-10 md:mt-20 text-center">
+          <a
+            href="#"
+            class="px-4 uppercase py-2 md:px-7 md:py-3 rounded-full bg-amber-500 text-white font-bold w-full block md:inline text-center outline-none text-nowrap"
+            >View all courses
+            <i class="fa-solid fa-right-long ml-1"></i>
+          </a>
+        </div>
+      </div>
+    </section>
     <!-- script -->
   </body>
 </html>
